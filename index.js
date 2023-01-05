@@ -122,7 +122,7 @@ function onCategoryClick(event) {
 
     itemsList.append(li);
   });
-  itemsBlock.innerHTML = "";
+  itemsBlock.innerHTML = "<h3>Product list</h3>";
   itemInfo.innerHTML = "";
   itemsBlock.append(itemsList);
 }

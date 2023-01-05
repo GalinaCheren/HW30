@@ -12,24 +12,32 @@
 }
 
 .itemsList {
-  padding: 15px;
+  padding: 20px;
   background: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
 }
 .itemCategory {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
 }
 .itemCategory h3 {
-  font-size: 16px;
+  font-size: 25px;
   color: rgba(0, 0, 0, 0.6);
   margin: 0 0 10px;
   padding: 0 5px;
   position: relative;
 }
-
+.itemsList h3 {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 10px;
+  padding: 0 5px;
+  position: relative;
+}
 .itemInfo {
-  font-size: 16px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
   margin: 0 0 10px;
   padding: 0 5px;
@@ -38,6 +46,23 @@
   flex-direction: column;
   justify-content: center;
 }
+#buyButton {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  position: relative;
+  color: black;
+  border: 1px solid rgba(85, 2, 2, 0.4);
+  background: none;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
 .itemInfo div {
   text-align: center;
 }
@@ -54,11 +79,12 @@ li {
   list-style: none;
   text-decoration: none;
   display: block;
-  font-size: 13px;
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.6);
   padding: 5px;
   position: relative;
   transition: 0.3s linear;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 li:after {
   content: "+";
